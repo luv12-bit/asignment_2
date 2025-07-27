@@ -1,0 +1,102 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0px;
+    width:90vw;
+    height: 90vh;
+}
+.navbar{
+    /* border:3px solid red; */
+    /* font-size: 30px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo{
+    width: 30px;
+    cursor: pointer;
+}
+.logo:hover{
+         transform: scale(1.1);
+}
+.ul{
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+}
+.ul :hover{
+    color: chocolate;
+}
+.name{
+    font-size: 30px;
+    height: 40px;
+    width:120px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 196, 196);
+    font-weight: 500px;
+    display: flex;
+}
+.name:hover{
+      color: rgb(33, 156, 121);
+      transition: .5s ease-in-out;
+      transform: scale(1.1);
+}
+.hero{
+    overflow: hidden;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: white;
+}
+ .right{
+    margin-top: 10px;
+    margin-left:150px;
+    /* height: 100px; */
+    /* width: 100px; */
+}
+ 
+.first{
+    /* padding: 0; */
+    margin-left: 40px ;
+    margin-top: 0px;
+    font-size: 50px;
+}
+.first span{
+    color: blueviolet;
+}
+
+.second{
+    font-size: 20px;
+    padding: 0;
+    line-height: 3vh;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.button{
+    margin-left: 50px;
+    height: 50px;
+    width: 160px;
+    line-height: 3vh;
+    align-items: center;
+    justify-content: center;
+    background-color:blueviolet;
+    color: chartreuse;
+    border-radius: 7px;
+    border: transparent;
+
+}
+.left button:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
